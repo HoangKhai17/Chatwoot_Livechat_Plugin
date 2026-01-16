@@ -1,4 +1,4 @@
-# Chatwoot Plugin #
+# Chatwoot Livechat Plugin #
 **Contributors:** [antpb](https://profiles.wordpress.org/antpb), [chatwootengineering](https://profiles.wordpress.org/chatwootengineering)  
 **Tags:** chat, live-chat, support, chat-support, customer-support, customer-engagement  
 **Requires at least:** 4.5  

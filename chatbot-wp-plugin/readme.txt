@@ -1,4 +1,4 @@
-=== Chatwoot Plugin ===
+=== Chatwoot Livechat Plugin ===
 Contributors: antpb, chatwootengineering
 Tags: chat, live-chat, support, chat-support, customer-support, customer-engagement
 Requires at least: 4.5

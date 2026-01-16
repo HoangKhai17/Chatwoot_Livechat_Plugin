@@ -1,8 +1,8 @@
 {
-  "name": "chatwoot-plugin",
+  "name": "chatwoot-livechat-plugin",
   "version": "0.1.0",
   "main": "Gruntfile.js",
-  "author": "Anthony Burchell",
+  "author": "Nguyen Hoang Khai",
   "scripts": {
     "start": "grunt default",
     "readme": "grunt readme",
