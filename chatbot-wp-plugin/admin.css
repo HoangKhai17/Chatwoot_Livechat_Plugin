@@ -9,6 +9,14 @@
   min-width: 400px;
 }
 
+.form--input input[type="checkbox"] {
+  min-width: auto;
+  width: 16px;
+  height: 16px;
+  margin-bottom: 16px;
+  margin-top: 4px;
+}
+
 .form--input select {
   margin-bottom: 16px;
   min-width: 400px;

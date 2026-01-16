@@ -7,7 +7,7 @@
  * Author:          nguyenhoangkhai
  * Author URI:      https://khainguyen.link/
  * Text Domain:     chatwoot-livechat-plugin
- * Version:         0.2.2
+ * Version:         1.2.3
  *
  * @package         chatwoot-livechat-plugin
  */
@@ -89,7 +89,14 @@ add_action('admin_menu', 'chatwoot_setup_menu');
  */
 function chatwoot_setup_menu()
 {
-	add_options_page('Option', 'Chatwoot Settings', 'manage_options', 'chatwoot-plugin-options', 'chatwoot_options_page');
+	add_menu_page(
+		'Chatwoot Settings',
+		'Chatwoot',
+		'manage_options',
+		'chatwoot-plugin-options',
+		'chatwoot_options_page',
+		'dashicons-format-chat'
+	);
 }
 
 add_action('admin_init', 'chatwoot_register_settings');
@@ -153,7 +160,8 @@ function chatwoot_options_page()
 				<label for="chatwootLoggedInOnly">
 					Display widget only to logged-in users
 				</label>
-				<input
+				<input 
+				    
 					type="checkbox"
 					name="chatwootLoggedInOnly"
 					value="1"
