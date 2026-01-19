@@ -3,11 +3,11 @@
 /**
  * Plugin Name:     Chatwoot Livechat Plugin
  * Plugin URI:      https://www.chatwoot.com/
- * Description:     Chatwoot Plugin for WordPress. This plugin helps you to quickly integrate Chatwoot live-chat widget on Wordpress websites.
+ * Description:     Chatwoot Plugin for WordPress. This plugin allows you to easily integrate the Chatwoot live chat widget into your WordPress website in just a few steps.
  * Author:          nguyenhoangkhai
  * Author URI:      https://khainguyen.link/
  * Text Domain:     chatwoot-livechat-plugin
- * Version:         1.2.3
+ * Version:         1.2.4
  *
  * @package         chatwoot-livechat-plugin
  */
@@ -137,7 +137,7 @@ function chatwoot_options_page()
 {
 ?>
 	<div>
-		<h2>Chatwoot Settings</h2>
+		<h2>ChatBot Settings</h2>
 		<form method="post" action="options.php" class="chatwoot--form">
 			<?php settings_fields('chatwoot-plugin-options'); ?>
 			<div class="form--input">

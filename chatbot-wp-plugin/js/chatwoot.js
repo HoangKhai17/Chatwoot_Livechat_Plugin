@@ -15,3 +15,4 @@ window.chatwootSettings = {
     window.chatwootSDK.run({ websiteToken: chatwoot_token, baseUrl: chatwoot_url })
   }
 })(document,"script");
+
