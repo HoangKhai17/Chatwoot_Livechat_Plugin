@@ -91,7 +91,7 @@ function chatwoot_setup_menu()
 {
 	add_menu_page(
 		'Chatwoot Settings',
-		'Chatwoot',
+		'Live Chat',
 		'manage_options',
 		'chatwoot-plugin-options',
 		'chatwoot_options_page',
@@ -137,7 +137,7 @@ function chatwoot_options_page()
 {
 ?>
 	<div>
-		<h2>ChatBot Settings</h2>
+		<h2>Chatbot Settings</h2>
 		<form method="post" action="options.php" class="chatwoot--form">
 			<?php settings_fields('chatwoot-plugin-options'); ?>
 			<div class="form--input">
